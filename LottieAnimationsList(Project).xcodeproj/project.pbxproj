@@ -13,8 +13,9 @@
 		AFCA0A6E2D34211F006E5F4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFCA0A682D34211F006E5F4C /* Assets.xcassets */; };
 		AFCA0A712D342278006E5F4C /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = AFCA0A702D342278006E5F4C /* Lottie */; };
 		AFCA0A732D3422B7006E5F4C /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCA0A722D3422B7006E5F4C /* LottieView.swift */; };
-		AFCEE8B52D3424E6000C06AF /* Animation - 1736699146740.json in Resources */ = {isa = PBXBuildFile; fileRef = AFCEE8B42D3424E6000C06AF /* Animation - 1736699146740.json */; };
-		AFCEE8B72D342525000C06AF /* Animation - 1715097026144.json in Resources */ = {isa = PBXBuildFile; fileRef = AFCEE8B62D342525000C06AF /* Animation - 1715097026144.json */; };
+		AFCEE8B52D3424E6000C06AF /* Robot.json in Resources */ = {isa = PBXBuildFile; fileRef = AFCEE8B42D3424E6000C06AF /* Robot.json */; };
+		AFCEE8B72D342525000C06AF /* Dance Monkey.json in Resources */ = {isa = PBXBuildFile; fileRef = AFCEE8B62D342525000C06AF /* Dance Monkey.json */; };
+		AFCEE8BB2D342649000C06AF /* FavouriteAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFCEE8BA2D342649000C06AF /* FavouriteAnimation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,8 +25,9 @@
 		AFCA0A682D34211F006E5F4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AFCA0A692D34211F006E5F4C /* LottieAnimationsList_Project_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieAnimationsList_Project_App.swift; sourceTree = "<group>"; };
 		AFCA0A722D3422B7006E5F4C /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
-		AFCEE8B42D3424E6000C06AF /* Animation - 1736699146740.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "Animation - 1736699146740.json"; sourceTree = "<group>"; };
-		AFCEE8B62D342525000C06AF /* Animation - 1715097026144.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "Animation - 1715097026144.json"; sourceTree = "<group>"; };
+		AFCEE8B42D3424E6000C06AF /* Robot.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Robot.json; sourceTree = "<group>"; };
+		AFCEE8B62D342525000C06AF /* Dance Monkey.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "Dance Monkey.json"; sourceTree = "<group>"; };
+		AFCEE8BA2D342649000C06AF /* FavouriteAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteAnimation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 		AFCA0A632D34211F006E5F4C /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				AFCEE8BA2D342649000C06AF /* FavouriteAnimation.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -96,8 +99,8 @@
 		AFCEE8B32D3424CC000C06AF /* Animations */ = {
 			isa = PBXGroup;
 			children = (
-				AFCEE8B62D342525000C06AF /* Animation - 1715097026144.json */,
-				AFCEE8B42D3424E6000C06AF /* Animation - 1736699146740.json */,
+				AFCEE8B62D342525000C06AF /* Dance Monkey.json */,
+				AFCEE8B42D3424E6000C06AF /* Robot.json */,
 			);
 			path = Animations;
 			sourceTree = "<group>";
@@ -168,8 +171,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				AFCA0A6D2D34211F006E5F4C /* Preview Assets.xcassets in Resources */,
-				AFCEE8B52D3424E6000C06AF /* Animation - 1736699146740.json in Resources */,
-				AFCEE8B72D342525000C06AF /* Animation - 1715097026144.json in Resources */,
+				AFCEE8B52D3424E6000C06AF /* Robot.json in Resources */,
+				AFCEE8B72D342525000C06AF /* Dance Monkey.json in Resources */,
 				AFCA0A6E2D34211F006E5F4C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -182,6 +185,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AFCA0A6B2D34211F006E5F4C /* AnimationsListView.swift in Sources */,
+				AFCEE8BB2D342649000C06AF /* FavouriteAnimation.swift in Sources */,
 				AFCA0A732D3422B7006E5F4C /* LottieView.swift in Sources */,
 				AFCA0A6C2D34211F006E5F4C /* LottieAnimationsList_Project_App.swift in Sources */,
 			);
